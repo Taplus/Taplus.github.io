@@ -141,17 +141,17 @@ article:
         fold: unfolded
     # Whether to show estimated article reading time
     readtime: true
-    # # Article licensing block
-    # licenses:
-    #     Creative Commons:
-    #         icon: fab fa-creative-commons
-    #         url: 'https://creativecommons.org/'
-    #     Attribution:
-    #         icon: fab fa-creative-commons-by
-    #         url: 'https://creativecommons.org/licenses/by/4.0/'
-    #     Noncommercial:
-    #         icon: fab fa-creative-commons-nc
-    #         url: 'https://creativecommons.org/licenses/by-nc/4.0/'
+    # Article licensing block
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: 'https://creativecommons.org/'
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: 'https://creativecommons.org/licenses/by/4.0/'
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: 'https://creativecommons.org/licenses/by-nc/4.0/'
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
@@ -213,7 +213,7 @@ sidebar:
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: true
+        sticky: false
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -262,7 +262,7 @@ widgets:
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: toc
         # Whether to show the index of each heading
         index: true
