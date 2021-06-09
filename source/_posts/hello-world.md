@@ -1,7 +1,7 @@
 ---
 title: Hello World
 tag: 随便写写
-categories: 妄语集
+categories: 闲言碎语集
 ---
 这是我的第一篇博客
 
